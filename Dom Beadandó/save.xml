@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><GameCompany xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="7.xsd ">
+
+	<Account AccountID="#ASD654">
+		<AccountName>
+			<First_Name>Lajos</First_Name>
+			<Second_Name>Toth</Second_Name>
+		</AccountName>
+		<Nickname>Subidubiduuu</Nickname>
+	</Account>
+
+	<Account AccountID="#ASD655">
+		<AccountName>
+			<First_Name>Gabor</First_Name>
+			<Second_Name>Sos</Second_Name>
+		</AccountName>
+		<Nickname>Ixuu</Nickname>
+	</Account>
+
+	<Games GamesID="1">
+		<GameName>
+			<First_Name>Fighters</First_Name>
+			<Second_Name>Onine</Second_Name>
+			<Third_Name>Online</Third_Name>
+		</GameName>
+		<GameRegistrationDate>2000-02-22</GameRegistrationDate>
+	</Games>
+
+	<Games GamesID="2">
+		<GameName>
+			<First_Name>Tender</First_Name>
+			<Second_Name>Warriors</Second_Name>
+			<Third_Name>Online</Third_Name>
+		</GameName>
+		<GameRegistrationDate>2005-07-26</GameRegistrationDate>
+	</Games>
+
+	<Games GamesID="3">
+		<GameName>
+			<First_Name>Labirynth</First_Name>
+			<Second_Name>Of</Second_Name>
+			<Third_Name>Kualek</Third_Name>
+		</GameName>
+		<GameRegistrationDate>2004-03-15</GameRegistrationDate>
+	</Games>
+
+	<Characters CharFKey="2" CharID="TEND001">
+		<Character_name>
+			<First_Name>Seifer</First_Name>
+			<Second_Name>Rage</Second_Name>
+			
+		</Character_name>
+		<Class>Warrior</Class>
+		<Level>55</Level>
+	</Characters>
+
+	<Characters CharFKey="3" CharID="LABI001">
+		<Character_name>
+			<First_Name>Kukac</First_Name>
+			<Second_Name>Mokus</Second_Name>
+			
+		</Character_name>
+		<Class>Mage</Class>
+		<Level>36</Level>
+	</Characters>
+
+	<Characters CharFKey="1" CharID="FIGH001">
+		<Character_name>
+			<First_Name>Dark</First_Name>
+			<Second_Name>Shadow</Second_Name>
+		</Character_name>
+		<Class>Rogue</Class>
+		<Level>89</Level>
+	</Characters>
+
+	<Equipment EqFKey="FIGH001" EqID="34">
+		<Equipment_name>
+			<First_Name>Rogues</First_Name>
+			<Second_Name>Friend</Second_Name>
+		</Equipment_name>
+		<Stats>
+			<Agility>50</Agility>
+			<Stamina>30</Stamina>
+		</Stats>
+		<owned ownid="1"/>
+	</Equipment>
+
+	<Equipment EqFKey="LABI001" EqID="35">
+		<Equipment_name>
+			<First_Name>Mages</First_Name>
+			<Second_Name>Friend</Second_Name>
+		</Equipment_name>
+		<Stats>
+			<Intelligence>50</Intelligence>
+			<Stamina>30</Stamina>
+		</Stats>
+		<owned ownid="3"/>
+	</Equipment>
+
+	<Equipment EqFKey="TEND001" EqID="32">
+		<Equipment_name>
+			<First_Name>Warriors</First_Name>
+			<Second_Name>Friend</Second_Name>
+		</Equipment_name>
+		<Stats>
+			<Strength>
+				50
+			</Strength>
+				<Stamina>30</Stamina>
+		</Stats>
+		<owned ownid="2"/>
+	</Equipment>
+
+	<Kapcsoloelement AccKapcsolo="#ASD654" GamesKapcsolo="2"/>
+	<Kapcsoloelement AccKapcsolo="#ASD655" GamesKapcsolo="1"/>
+	<Kapcsoloelement AccKapcsolo="#ASD655" GamesKapcsolo="3"/>
+</GameCompany>
